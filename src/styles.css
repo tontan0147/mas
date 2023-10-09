@@ -1,1 +1,82 @@
-/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.css";
+
+.mr{
+  align-items: center;
+}
+.tall{
+  top: 0;
+  height : 100px;
+}
+.alpha {
+  textcolor: #e7dfe7;
+  background-color: #2240b4;
+  height: 20px;
+  margin-top: 5px;
+}
+.lookout {
+  stroke-width: 2px;
+  background-color: #d45b5b;
+  height: 20%;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+}
+.nav {
+  float: left;
+  width: 15%;
+  height: 160px;
+  background: #ccc;
+  padding: 20px;
+
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+.element {
+  align-items: center;
+}
+body {
+  background: url("/assets/rm222-mind-16_1.jpg") no-repeat ;
+  background-size: cover;
+}
+.osa{
+  height: 60px;
+  width: 100%;
+  background-image: url('/assets/9f607cfe235f74439137d49e70b4205c.jpg') ;
+  background-size: cover;
+  margin: 0 auto;
+}
+button:hover{
+  background-color: #24292e;
+}
+.cen{
+
+  margin-left: 325px;
+  display: block;
+}
+.navbar {
+  width: 250px;
+  background-color: #f8f9fa;
+  position: fixed;
+  height: 100%;
+  top: 96px;
+  overflow-y: auto;
+}
+.navbar a {
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  color: #000;
+}
+/*nav ul {*/
+/*  list-style-type: none;*/
+/*  padding: 0;*/
+/*}*/
+
+/*nav ul li {*/
+/*  display: inline-block;*/
+/*  margin-right: 20px; */
+/*}*/
