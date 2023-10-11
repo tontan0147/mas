@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CrudComponent } from './crud/crud.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CrudComponent
+    CrudComponent,
+
   ],
   imports: [
     BrowserModule,
